@@ -1,8 +1,8 @@
 <?php
 
-namespace Czechbox\LaravelPlans\Events;
+namespace Concept\LaravelPlans\Events;
 
-use Czechbox\LaravelPlans\Models\PlanSubscription;
+use Concept\LaravelPlans\Models\PlanSubscription;
 use Illuminate\Queue\SerializesModels;
 
 class SubscriptionCanceled

@@ -1,11 +1,11 @@
 <?php
 
-namespace Czechbox\LaravelPlans\Tests\Integration\Models;
+namespace Concept\LaravelPlans\Tests\Integration\Models;
 
-use Czechbox\LaravelPlans\Period;
-use Czechbox\LaravelPlans\Tests\TestCase;
-use Czechbox\LaravelPlans\Models\Plan;
-use Czechbox\LaravelPlans\Models\PlanFeature;
+use Concept\LaravelPlans\Period;
+use Concept\LaravelPlans\Tests\TestCase;
+use Concept\LaravelPlans\Models\Plan;
+use Concept\LaravelPlans\Models\PlanFeature;
 
 class PlanTest extends TestCase
 {

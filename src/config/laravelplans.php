@@ -29,10 +29,10 @@ return [
     |
     */
     'models' => [
-        'plan' => 'Czechbox\LaravelPlans\Models\Plan',
-        'plan_feature' => 'Czechbox\LaravelPlans\Models\PlanFeature',
-        'plan_subscription' => 'Czechbox\LaravelPlans\Models\PlanSubscription',
-        'plan_subscription_usage' => 'Czechbox\LaravelPlans\Models\PlanSubscriptionUsage',
+        'plan' => 'Concept\LaravelPlans\Models\Plan',
+        'plan_feature' => 'Concept\LaravelPlans\Models\PlanFeature',
+        'plan_subscription' => 'Concept\LaravelPlans\Models\PlanSubscription',
+        'plan_subscription_usage' => 'Concept\LaravelPlans\Models\PlanSubscriptionUsage',
     ],
 
     /*

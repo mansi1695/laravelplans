@@ -1,13 +1,13 @@
 <?php
 
-namespace Czechbox\LaravelPlans\Tests\Integration\Models;
+namespace Concept\LaravelPlans\Tests\Integration\Models;
 
 use Config;
 use Carbon\Carbon;
-use Czechbox\LaravelPlans\Models\Plan;
-use Czechbox\LaravelPlans\Tests\TestCase;
-use Czechbox\LaravelPlans\Tests\Models\User;
-use Czechbox\LaravelPlans\Models\PlanFeature;
+use Concept\LaravelPlans\Models\Plan;
+use Concept\LaravelPlans\Tests\TestCase;
+use Concept\LaravelPlans\Tests\Models\User;
+use Concept\LaravelPlans\Models\PlanFeature;
 
 class PlanSubscriptionUsageTest extends TestCase
 {

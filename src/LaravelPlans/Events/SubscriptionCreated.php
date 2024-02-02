@@ -1,8 +1,8 @@
 <?php
 
-namespace Czechbox\LaravelPlans\Events;
+namespace Concept\LaravelPlans\Events;
 
-use Czechbox\LaravelPlans\Models\PlanSubscription;
+use Concept\LaravelPlans\Models\PlanSubscription;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
 
@@ -11,7 +11,7 @@ class SubscriptionCreated
     use Dispatchable, SerializesModels;
 
     /**
-     * @var \Czechbox\LaravelPlans\Models\PlanSubscription
+     * @var \Concept\LaravelPlans\Models\PlanSubscription
      */
     public $subscription;
 

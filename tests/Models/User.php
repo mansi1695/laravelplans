@@ -1,10 +1,10 @@
 <?php
 
-namespace Czechbox\LaravelPlans\Tests\Models;
+namespace Concept\LaravelPlans\Tests\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Czechbox\LaravelPlans\Contracts\PlanSubscriberInterface;
-use Czechbox\LaravelPlans\Traits\PlanSubscriber;
+use Concept\LaravelPlans\Contracts\PlanSubscriberInterface;
+use Concept\LaravelPlans\Traits\PlanSubscriber;
 
 class User extends Authenticatable implements PlanSubscriberInterface
 {

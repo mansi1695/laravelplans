@@ -1,16 +1,16 @@
 <?php
 
-namespace Czechbox\LaravelPlans;
+namespace Concept\LaravelPlans;
 
 use Illuminate\Support\ServiceProvider;
-use Czechbox\LaravelPlans\SubscriptionBuilder;
-use Czechbox\LaravelPlans\SubscriptionResolver;
-use Czechbox\LaravelPlans\Contracts\PlanInterface;
-use Czechbox\LaravelPlans\Contracts\PlanFeatureInterface;
-use Czechbox\LaravelPlans\Contracts\PlanSubscriptionInterface;
-use Czechbox\LaravelPlans\Contracts\SubscriptionBuilderInterface;
-use Czechbox\LaravelPlans\Contracts\SubscriptionResolverInterface;
-use Czechbox\LaravelPlans\Contracts\PlanSubscriptionUsageInterface;
+use Concept\LaravelPlans\SubscriptionBuilder;
+use Concept\LaravelPlans\SubscriptionResolver;
+use Concept\LaravelPlans\Contracts\PlanInterface;
+use Concept\LaravelPlans\Contracts\PlanFeatureInterface;
+use Concept\LaravelPlans\Contracts\PlanSubscriptionInterface;
+use Concept\LaravelPlans\Contracts\SubscriptionBuilderInterface;
+use Concept\LaravelPlans\Contracts\SubscriptionResolverInterface;
+use Concept\LaravelPlans\Contracts\PlanSubscriptionUsageInterface;
 
 class LaravelPlansServiceProvider extends ServiceProvider
 {

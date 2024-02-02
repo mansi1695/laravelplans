@@ -1,8 +1,8 @@
 <?php
 
-use Czechbox\LaravelPlans\Models\Plan;
-use Czechbox\LaravelPlans\Tests\Models\User;
-use Czechbox\LaravelPlans\Models\PlanSubscription;
+use Concept\LaravelPlans\Models\Plan;
+use Concept\LaravelPlans\Tests\Models\User;
+use Concept\LaravelPlans\Models\PlanSubscription;
 
 $factory->define(PlanSubscription::class, function (Faker\Generator $faker) {
     return [

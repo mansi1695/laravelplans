@@ -1,13 +1,13 @@
 <?php
 
-namespace Czechbox\LaravelPlans\Tests\Integration;
+namespace Concept\LaravelPlans\Tests\Integration;
 
-use Czechbox\LaravelPlans\Models\Plan;
-use Czechbox\LaravelPlans\Tests\TestCase;
-use Czechbox\LaravelPlans\Tests\Models\User;
-use Czechbox\LaravelPlans\Models\PlanFeature;
-use Czechbox\LaravelPlans\SubscriptionUsageManger;
-use Czechbox\LaravelPlans\Models\PlanSubscriptionUsage;
+use Concept\LaravelPlans\Models\Plan;
+use Concept\LaravelPlans\Tests\TestCase;
+use Concept\LaravelPlans\Tests\Models\User;
+use Concept\LaravelPlans\Models\PlanFeature;
+use Concept\LaravelPlans\SubscriptionUsageManger;
+use Concept\LaravelPlans\Models\PlanSubscriptionUsage;
 
 class SubscriptionUsageMangerTest extends TestCase
 {

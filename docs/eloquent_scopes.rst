@@ -3,7 +3,7 @@ Eloquent Scopes
 
 .. code-block:: php
 
-    use Czechbox\LaravelPlans\Models\PlanSubscription;
+    use Concept\LaravelPlans\Models\PlanSubscription;
 
     // Get subscriptions by plan:
     $subscriptions = PlanSubscription::byPlan($plan_id)->get();

@@ -1,10 +1,10 @@
 <?php
 
-namespace Czechbox\LaravelPlans\Models;
+namespace Concept\LaravelPlans\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Czechbox\LaravelPlans\Traits\BelongsToPlan;
-use Czechbox\LaravelPlans\Contracts\PlanFeatureInterface;
+use Concept\LaravelPlans\Traits\BelongsToPlan;
+use Concept\LaravelPlans\Contracts\PlanFeatureInterface;
 
 class PlanFeature extends Model implements PlanFeatureInterface
 {

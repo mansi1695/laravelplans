@@ -1,26 +1,26 @@
 <?php
 
-namespace Czechbox\LaravelPlans\Models;
+namespace Concept\LaravelPlans\Models;
 
 use DB;
 use App;
 use Carbon\Carbon;
 use LogicException;
-use Czechbox\LaravelPlans\Period;
+use Concept\LaravelPlans\Period;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Database\Eloquent\Model;
-use Czechbox\LaravelPlans\Models\PlanFeature;
-use Czechbox\LaravelPlans\SubscriptionAbility;
-use Czechbox\LaravelPlans\Traits\BelongsToPlan;
-use Czechbox\LaravelPlans\Contracts\PlanInterface;
-use Czechbox\LaravelPlans\SubscriptionUsageManager;
-use Czechbox\LaravelPlans\Events\SubscriptionCreated;
-use Czechbox\LaravelPlans\Events\SubscriptionRenewed;
-use Czechbox\LaravelPlans\Events\SubscriptionCanceled;
-use Czechbox\LaravelPlans\Events\SubscriptionPlanChanged;
-use Czechbox\LaravelPlans\Contracts\PlanSubscriptionInterface;
-use Czechbox\LaravelPlans\Exceptions\InvalidPlanFeatureException;
-use Czechbox\LaravelPlans\Exceptions\FeatureValueFormatIncompatibleException;
+use Concept\LaravelPlans\Models\PlanFeature;
+use Concept\LaravelPlans\SubscriptionAbility;
+use Concept\LaravelPlans\Traits\BelongsToPlan;
+use Concept\LaravelPlans\Contracts\PlanInterface;
+use Concept\LaravelPlans\SubscriptionUsageManager;
+use Concept\LaravelPlans\Events\SubscriptionCreated;
+use Concept\LaravelPlans\Events\SubscriptionRenewed;
+use Concept\LaravelPlans\Events\SubscriptionCanceled;
+use Concept\LaravelPlans\Events\SubscriptionPlanChanged;
+use Concept\LaravelPlans\Contracts\PlanSubscriptionInterface;
+use Concept\LaravelPlans\Exceptions\InvalidPlanFeatureException;
+use Concept\LaravelPlans\Exceptions\FeatureValueFormatIncompatibleException;
 
 class PlanSubscription extends Model implements PlanSubscriptionInterface
 {
@@ -69,7 +69,7 @@ class PlanSubscription extends Model implements PlanSubscriptionInterface
     /**
      * Subscription Ability Manager instance.
      *
-     * @var Czechbox\LaravelPlans\SubscriptionAbility
+     * @var Concept\LaravelPlans\SubscriptionAbility
      */
     protected $ability;
 
@@ -297,7 +297,7 @@ class PlanSubscription extends Model implements PlanSubscriptionInterface
     /**
      * Get Subscription Ability instance.
      *
-     * @return \Czechbox\LaravelPlans\SubscriptionAbility
+     * @return \Concept\LaravelPlans\SubscriptionAbility
      */
     public function ability()
     {
